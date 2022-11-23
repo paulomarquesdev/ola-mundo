@@ -1,9 +1,12 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import { Container, ContainerVoid } from './styled'
+import { Button } from 'components/Button'
 import img404 from '../../assets/images/erro_404.png'
-import Button from 'components/Button'
 
 export function Page404() {
+  const navigate = useNavigate()
+
   return (
     <>
       <Container>
