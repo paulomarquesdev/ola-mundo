@@ -36,7 +36,7 @@ export const Container = styled.main`
     img {
         position: absolute;
         height: 25vw;
-        bottom: calc(-25vw * 0.5);
+        bottom: calc(-23vw * 0.5);
     }
 
     @media (max-width: 1100px) {    
@@ -84,7 +84,7 @@ export const Container = styled.main`
             left: 0;
             right: 0;
             height: 94vw;
-            bottom: calc(-94vw * 0.3);
+            bottom: calc(-110vw * 0.3);
             max-height: 375px;
         }
     }
