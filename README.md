@@ -1,3 +1,28 @@
+# Alura Space
+
+![preview](.github/print.png)
+
+> Olá, Mundo!
+
+Projeto construído durante o curso React: Desenvolvendo em React Router com JavaScript, ministrado pela Alura.
+
+[Clique aqui para acessar](https://olamundo-page.vercel.app/)
+
+## Tecnologias
+
+- ReactJS
+- JavaScript
+- Styled Components
+
+## 💻 Projeto
+
+O Olá, Mundo! é uma página web pessoal que conta com listagem de post da Alura.
+
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através original da Alura [DESSE LINK](https://www.figma.com/file/XJKk65Rgm9c7NihDnHjZHq/Ol%C3%A1%2C-Mundo!---Projeto-React%3A-router-(Copy)?node-id=38%3A717&t=LyLxseYwlH28zdCp-1). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
