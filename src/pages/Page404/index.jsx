@@ -5,7 +5,7 @@ import { Button } from 'components/Button'
 import img404 from '../../assets/images/erro_404.png'
 
 export function Page404() {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   return (
     <>
@@ -16,7 +16,7 @@ export function Page404() {
         <p>Tem certeza de que era isso que você estava procurando?</p>
         <p>Aguarde uns instantes e recarregue a página, ou volte para a página inicial.</p>
 
-        <div>
+        <div onClick={() => navigate(-1)}>
           <Button label="Voltar" size="lg" />
         </div>
 
