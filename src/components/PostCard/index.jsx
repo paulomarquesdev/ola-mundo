@@ -2,7 +2,7 @@ import React from 'react'
 import { Container } from './style';
 import postImg from '../../assets/posts/1/capa.png';
 
-export function Post({ post }) {
+export function PostCard({ post }) {
   return (
     <Container>
         <img
