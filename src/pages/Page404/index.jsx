@@ -14,7 +14,7 @@ export function Page404() {
         <p>Aguarde uns instantes e recarregue a página, ou volte para a página inicial.</p>
 
         <div>
-          <Button label="Voltar" />
+          <Button label="Voltar" size="lg" />
         </div>
 
         <img src={img404} alt='Imagem de cachorro' />
