@@ -4,7 +4,6 @@ import { PostModel } from 'components/PostModel';
 import { Container } from './style';
 import posts from '../../json/posts.json';
 import { ReactMarkdown } from 'react-markdown/lib/react-markdown';
-// import imgCapa from '../../assets/images/sobre_mim_capa.png';
 
 export function Post() {
   const params = useParams();
@@ -12,6 +11,10 @@ export function Post() {
   const post = posts.find((post) => {
     return post.id === Number(params.id);
   });
+
+  if(!post) {
+    return <h1 style={{textAlign: 'center', color: 'var(--blue)'}}>Post não encontrado...</h1>
+  }
 
   return (
     <PostModel
