@@ -1,3 +1,4 @@
+import Button from 'components/Button';
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { Container } from './style';
@@ -11,7 +12,7 @@ export function PostCard({ post }) {
               alt="Imagem de capa do post" 
               />
           <h2>{post.title}</h2>
-          <button>Ler</button>
+          <Button label="Ler" />
       </Link>
     </Container>
   )

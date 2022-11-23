@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.section`
+export const Container = styled.main`
     ul {
         padding: 0 6vw 3.625rem;
         display: flex;
