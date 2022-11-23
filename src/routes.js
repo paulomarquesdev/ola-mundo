@@ -18,8 +18,8 @@ export function RoutesApp() {
 
         <Routes>
             <Route path="/" element={<DefaultPage />} >
-                <Route path="/" element={<Home />} />
-                <Route path="/sobremim" element={<AboutMe />} />
+                <Route index element={<Home />} />
+                <Route path="sobremim" element={<AboutMe />} />
             </Route>
 
             <Route path="*" element={<Page404 />} />
