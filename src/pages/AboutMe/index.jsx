@@ -1,7 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { Outlet } from 'react-router-dom';
 
 export function AboutMe() {
   return (
-    <h1>AboutMe</h1>
+    <Outlet />
+    // <Container>
+    //   <Banner />
+
+    // </Container>
   )
 }

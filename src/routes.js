@@ -9,6 +9,7 @@ import { AboutMe } from "pages/AboutMe";
 import { Page404 } from "pages/Page404";
 import { Menu } from 'components/Menu';
 import { Footer } from 'components/Footer';
+import { DefaultPage } from 'components/DefaultPage';
 
 export function RoutesApp() {
   return (
@@ -16,8 +17,11 @@ export function RoutesApp() {
         <Menu />
 
         <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/sobremim" element={<AboutMe />} />
+            <Route path="/" element={<DefaultPage />} >
+                <Route path="/" element={<Home />} />
+                <Route path="/sobremim" element={<AboutMe />} />
+            </Route>
+
             <Route path="*" element={<Page404 />} />
         </Routes>
 

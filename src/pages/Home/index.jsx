@@ -1,13 +1,10 @@
-import React from 'react'
-import { Banner } from 'components/Banner'
+import React from 'react';
 import { Post } from 'components/Post';
 import { Posts } from './style';
 import posts from '../../json/posts.json';
 
 export function Home() {
   return (
-    <main>
-      <Banner />
       <Posts>
         <ul className='posts'>
           {posts.map((post) => {
@@ -19,6 +16,5 @@ export function Home() {
           })}
         </ul>
       </Posts>
-    </main>
   );
 }
