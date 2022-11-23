@@ -4,12 +4,13 @@ import {
     Routes,
     Route
 } from "react-router-dom";
+import { Menu } from 'components/Menu';
+import { DefaultPage } from 'components/DefaultPage';
 import { Home } from "pages/Home";
 import { AboutMe } from "pages/AboutMe";
-import { Page404 } from "pages/Page404";
-import { Menu } from 'components/Menu';
+import { Post } from 'pages/Post';
 import { Footer } from 'components/Footer';
-import { DefaultPage } from 'components/DefaultPage';
+import { Page404 } from "pages/Page404";
 
 export function RoutesApp() {
   return (
@@ -20,6 +21,7 @@ export function RoutesApp() {
             <Route path="/" element={<DefaultPage />} >
                 <Route index element={<Home />} />
                 <Route path="sobremim" element={<AboutMe />} />
+                <Route path="posts/:id" element={<Post />} />
             </Route>
 
             <Route path="*" element={<Page404 />} />
