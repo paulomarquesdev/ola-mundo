@@ -1,11 +1,11 @@
 import React from 'react';
 import { PostCard } from 'components/PostCard';
-import { Posts } from './style';
+import { Container } from './style';
 import posts from '../../json/posts.json';
 
 export function Home() {
   return (
-      <Posts>
+      <Container>
         <ul className='posts'>
           {posts.map((post) => {
             return (
@@ -15,6 +15,6 @@ export function Home() {
             )
           })}
         </ul>
-      </Posts>
+      </Container>
   );
 }

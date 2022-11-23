@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Posts = styled.section`
+export const Container = styled.section`
     ul {
         padding: 0 6vw 3.625rem;
         display: flex;
