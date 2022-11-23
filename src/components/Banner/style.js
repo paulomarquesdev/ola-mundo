@@ -6,6 +6,7 @@ export const Container = styled.div`
     color: var(--white);
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
 
     h1 {
         font-family: var(--fontSecondary);
