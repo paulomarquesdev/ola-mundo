@@ -3,7 +3,7 @@ import { Container } from './style';
 
 export default function Button({ label }) {
   return (
-    <Container>
+    <Container className='lg'>
         {label}
     </Container>
   );

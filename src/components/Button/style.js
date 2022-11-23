@@ -11,6 +11,12 @@ export const Container = styled.button`
     border: 3px solid var(--blue);
     cursor: pointer;
     transition: 0.2s;
+
+    &.lg {
+        padding: 1.5rem 3.6875rem;
+        font-size: 1.5rem;
+        line-height: 1.125rem;
+    }
     
     &:hover {
         border: 3px solid var(--blueDark);
